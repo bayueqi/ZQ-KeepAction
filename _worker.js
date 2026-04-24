@@ -271,7 +271,7 @@ export default {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Action</title>
+  <title>ZQ-KeepAction</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg t='1777024262222' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='5277' width='200' height='200'%3E%3Cpath d='M145.778 128h732.444v170.667L945.778 416V96l-32-32h-800L78.222 96v600.889l35.556 32h248.889l-46.222-67.556H145.778V128z m295.111 600.889l-60.444-92.444 152.889-334.222 60.444-39.111h192l53.333 103.111-53.333 96H896L942.222 576 568.889 960H419.556l96-231.111h-74.667z m0-67.556h181.333L512 917.333l384-387.556H661.333l124.444-199.111h-192L440.889 661.333z m-3.556-266.666h-224v67.556h192l32-67.556z m-60.444 135.111H213.333v67.556h131.556l32-67.556z' p-id='5278'%3E%3C/path%3E%3C/svg%3E">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -552,8 +552,8 @@ export default {
         userDiv.innerHTML = \`
           <div class="user-header">
             <div class="form-group" style="margin:0;flex:1;margin-right:15px;">
-              <label>用户名/备注</label>
-              <input type="text" value="\${user.name || ''}" placeholder="例如：我的主账号" onchange="updateUser(\${userIndex}, 'name', this.value)">
+              <label>用户名</label>
+              <input type="text" value="\${user.name || ''}" onchange="updateUser(\${userIndex}, 'name', this.value)">
             </div>
             <button class="btn btn-danger btn-sm" onclick="removeUser(\${userIndex})">删除</button>
           </div>
