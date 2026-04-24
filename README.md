@@ -18,7 +18,7 @@
 2. 左侧菜单栏最下方 → **Developer settings**
 3. 选择 **Personal access tokens** → **Tokens (classic)**
 4. 点击 **Generate new token (classic)**
-5. **Note**：自定义名称（例：`CF-KeepAlive`），便于识别
+5. **Note**：自定义名称（例：`KeepAction`），便于识别
 6. **Expiration**：建议选择 **No expiration**（永不过期），避免后续重复配置
 7. **Select scopes**（权限勾选，二选一）：
    - 公开仓库：勾选 `public_repo` + `workflow`
